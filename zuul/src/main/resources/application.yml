@@ -1,0 +1,5 @@
+zuul:
+  routes:
+    foos:
+      path: /proxy/**
+      url: http://localhost:8090/backend
